@@ -1,4 +1,4 @@
-.nav {
+/*.nav {
     overflow: hidden; }
   .nav a {
     float: left;
@@ -50,13 +50,13 @@
   /* Base styles for the body */
   body {
       font-family: Arial, sans-serif;
-      display: flex;
+/*      display: flex;*/
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      /*height: 100vh;*/
       margin: 0;
-      background-color: var(--hacker-black);
-      color: var(--Malachite);
+      background-color: var(--clr-light);
+      color: var(--hacker_black);
       transition: background-color 0.3s, color 0.3s;
   }
   
@@ -76,7 +76,10 @@
       margin-bottom: 20px;
           color: var(--Islamic_green);
   }
-  
+  h2 {
+    margin-bottom: 20px;
+        color: var(--Islamic_green);
+}
   
   /* Styles for the toggle container */
   .toggle-container {
